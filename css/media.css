@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    h2 {
+        font-size: 30px;
+        color: brown;
+        
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+    }
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    h2 {
+        font-size: 18px;
+        color: pink;
+    }
+    .wrapper {
+        justify-content: center;
+    }
+
+    .box {
+        width: 250px;
+        height: 250px;  
+        margin-bottom: 20px;
+    }
+  }
